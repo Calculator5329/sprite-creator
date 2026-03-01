@@ -1,0 +1,37 @@
+{
+  "image": "shadow_runner_sheet.png",
+  "cellWidth": 60,
+  "cellHeight": 90,
+  "cols": 2,
+  "rows": 2,
+  "frames": [
+    {
+      "name": "shadow_runner_idle",
+      "x": 0,
+      "y": 0,
+      "width": 60,
+      "height": 90
+    },
+    {
+      "name": "shadow_runner_jump",
+      "x": 60,
+      "y": 0,
+      "width": 60,
+      "height": 90
+    },
+    {
+      "name": "shadow_runner_run1",
+      "x": 0,
+      "y": 90,
+      "width": 60,
+      "height": 90
+    },
+    {
+      "name": "shadow_runner_run2",
+      "x": 60,
+      "y": 90,
+      "width": 60,
+      "height": 90
+    }
+  ]
+}

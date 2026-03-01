@@ -1,0 +1,25 @@
+{
+  "name": "sprite-creator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:gui": "npm run dev -w @sprite-creator/gui",
+    "dev:cli": "npm run dev -w nano-banana",
+    "build": "npm run build -w @sprite-creator/gui && npm run build -w nano-banana",
+    "build:cli": "npm run build -w nano-banana",
+    "build:gui": "npm run build -w @sprite-creator/gui",
+    "lint": "eslint .",
+    "nano-banana": "node packages/cli/dist/index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4"
+  }
+}

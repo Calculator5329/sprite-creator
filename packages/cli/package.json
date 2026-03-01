@@ -1,0 +1,36 @@
+{
+  "name": "nano-banana",
+  "version": "1.0.0",
+  "description": "CLI tool for formatting sprite assets for Epoch Runner level packs",
+  "type": "module",
+  "bin": {
+    "nano-banana": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "sprite",
+    "spritesheet",
+    "game",
+    "assets",
+    "image-processing",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "glob": "^11.0.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
